@@ -1,0 +1,483 @@
+/* Global styles */
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+
+} 
+a:visited {
+    text-decoration: none;
+    color: inherit;
+
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+button:focus{
+    outline: 0px;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+h2 {
+    margin-top: 60px;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* The Overlay (background) */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    background: #ffda61f3;
+	font-family: 'Oswald', sans-serif;
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+  
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+  
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block; 
+    transition: 0.3s; 
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #ffffff;
+}
+  
+  /* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
+
+/* navigation */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fcc100;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.top-top{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fcc100;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address{
+    float: left;
+    color: white;
+    padding-left: 30px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #ffda61;
+
+}
+
+.nav-logo {
+    margin: auto 30px auto 30px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hamb {
+    margin: auto 30px auto 30px;
+    cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffda61;
+}
+
+.hero-elements {
+    margin: 120px auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.main-logo > img {
+    width: 15rem;
+    margin: auto;
+}
+.hero-desc {
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.roles {
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.roles-two {
+    color: #ffffff;
+}
+
+.contact-btn {
+    padding: 20px 60px 20px 60px;
+    background-color: #ffc400;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.github{
+    border: 1px solid rgb(117, 117, 117);
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(117, 117, 117);
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+.project-btn{
+    border: 1px solid #ffc400;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffc400;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+.work {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Slideshow */
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.021);
+  }
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #ffda61;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 15px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ffda61;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.work-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+}
+
+.work-left {
+    width: 50%;
+    filter: grayscale(60%);
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.work-left:hover {
+    filter: grayscale(0);
+    transition: ease-in-out 0.4s;
+}
+.work-left > img{
+    width: 100%;
+}
+
+.work-left > img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    transition: ease-in-out 0.4s;
+}
+
+.project-desc {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    color: #ffffff;
+}
+
+.project-title {
+    color: #ffda61;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+
+.project-skills {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffda61;
+}
+
+.project-description {
+    font-family: 'Montserrat', sans-serif;
+    height: 30%;
+}
+
+
+.skills {
+    height: 100vh;
+    background-color: #ffda61;
+}
+
+.works-other {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.promark {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.prog {
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+
+.mark {
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+.icons {
+    color: white;
+}
+
+.dev-icon {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 44em) {
+    .nav-name {
+        font-size: 0.9rem;
+    }
+
+    .address{
+        display: none;
+    }
+
+    .social{
+        margin: auto;
+        padding: 0px;
+        justify-content: space-between;
+    }
+
+    .hero-elements {
+        width: 90%;
+    }
+
+    .hero-desc {
+        text-align: left;
+    }
+
+    .roles {
+        text-align: left;
+    }
+
+    .work-content {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .work-left {
+        width: 100%;
+    }
+
+    .project-desc {
+        padding-left: 0px;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .github{
+        width: 90%;
+    }
+    
+    .project-btn{
+        width: 90%;
+    }
+
+    .promark {
+        flex-direction: column;
+        width: 90%;
+    }
+}
