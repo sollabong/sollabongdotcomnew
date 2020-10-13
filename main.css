@@ -1,5 +1,9 @@
 /* Global styles */
 
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
 a:link {
     text-decoration: none;
     color: inherit;
@@ -21,17 +25,21 @@ a:active {
 
 }
 
+button {
+    cursor: pointer;
+}
+
 button:focus{
     outline: 0px;
 }
 
 ul {
     list-style: none;
-    display: inline;
+    padding-left: 0px;
 }
 
 li {
-    display: inline;
+    width: 15%;
 }
 h2 {
     margin-top: 60px;
@@ -40,6 +48,7 @@ h2 {
     letter-spacing: 0.1rem;
     text-align: center;
     color: #ffffff;
+    width: 90%;
 }
 
 /* The Overlay (background) */
@@ -174,7 +183,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #ffda61;
 }
@@ -197,6 +206,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0px;
+    width: 90%;
     text-align: center;
 }
 
@@ -206,6 +216,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1rem;
     text-align: center;
+    width: 90%;
 }
 
 .roles-two {
@@ -217,7 +228,7 @@ h2 {
     background-color: #ffc400;
     font-family: 'Montserrat', sans-serif;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -378,17 +389,12 @@ h2 {
 .project-skills {
     font-family: 'Montserrat', sans-serif;
     color: #ffda61;
+    font-size: 1.2rem;
 }
 
 .project-description {
     font-family: 'Montserrat', sans-serif;
     height: 30%;
-}
-
-
-.skills {
-    height: 100vh;
-    background-color: #ffda61;
 }
 
 .works-other {
@@ -398,32 +404,70 @@ h2 {
     text-align: center;
 }
 
+.skills {
+    height: 100%;
+    background-color: #ffda61;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .promark {
     display: flex;
     flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
+.skill-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
 .prog {
-    width: 40%;
-    color: white;
+    width: 30%;
+    color: #000000;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin: 5px;
+    padding: 15px;
+    min-width: 260px;
 }
 
 .mark {
-    width: 40%;
-    color: white;
+    width: 30%;
+    color: #000000;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 5px;
+    padding: 15px;
+    min-width: 260px;
 }
+
+.project-skills-desc {
+    text-align: justify;
+    height: 7rem;
+    
+}
+
 .icons {
-    color: white;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .dev-icon {
-    margin-left: 10px;
+    margin: 10px;
 }
+
+
 
 @media screen and (max-width: 44em) {
     .nav-name {
@@ -477,7 +521,7 @@ h2 {
     }
 
     .promark {
-        flex-direction: column;
         width: 90%;
     }
+
 }
