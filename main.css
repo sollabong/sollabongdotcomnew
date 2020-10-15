@@ -51,6 +51,10 @@ h2 {
     width: 90%;
 }
 
+.project-btn:hover, .contact-btn:hover, .button-send:hover {
+    background-color: #ffffff;
+}
+
 /* The Overlay (background) */
 .overlay {
     height: 100%;
