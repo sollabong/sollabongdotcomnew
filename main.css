@@ -147,7 +147,13 @@ h2 {
     color: white;
     font-size: 1.5rem;
     justify-content: space-evenly;
-    width: 100px;
+    width: 150px;
+}
+
+.lang {
+    font-size: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 .navigation {
@@ -447,7 +453,7 @@ h2 {
     width: 30%;
     color: #000000;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.329);
     margin: 5px;
     padding: 15px;
     min-width: 260px;
@@ -479,6 +485,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    width: 90%;
 }
 
 /* Blog */

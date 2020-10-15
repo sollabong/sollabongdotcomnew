@@ -4,7 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta property="og:type" content="portfolio site" />
+    <meta property="og:title" content="Sollabong portfolio - Online marketing | Front-end development">
+    <meta property="og:description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/sollabong/sollabongdotcom/master/assets/sollabong-frontenddev-onlinemarketing-musicproduction.jpg">
+    <meta property="og:url" content="http://sollabong.com">
+    <meta property="twitter:type" content="portfolio site" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Sollabong portfolio - Online marketing | Front-end development">
+    <meta property="twitter:description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/sollabong/sollabongdotcom/master/assets/sollabong-frontenddev-onlinemarketing-musicproduction.jpg">
+    <meta property="twitter:url" content="http://sollabong.com">
+    <meta name="twitter:creator" content="@sollabong" />
+    <meta name="title" content="Sollabong portfolio - Online marketing | Front-end development">
+    <meta name="description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta name="keywords"
+        content="sollabong, music, music production, dubstep, web development, webdesign, frontend, front-end, developer, online marketing, freelancer, freelance">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="language" content="English">
+
+    <title>Sollabong portfolio - Online marketing | Front-end development</title>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./main.css">
@@ -29,10 +55,10 @@
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            <a href="#work">Works</a>
+            <a href="#work">Portfolio</a>
             <a href="#promark">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
         </div>
 
     </div>
@@ -44,10 +70,10 @@
                 <i class="fas fa-map-marker-alt"></i>
                 Budapest, Hungary</p>
             <div class="social">
-                <a href="https://www.facebook.com/woodivity" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/woodivity_official/" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-                <a class="phone" href="tel:1111111111"><i class="fas fa-phone-square"></i></a>
+                <span class="lang">EN | HU </span>
+                <a href="https://www.facebook.com/sollabong" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="phone" href="tel:0036702104216"><i class="fas fa-phone-square"></i></a>
             </div>
         </div>
         <div class="navigation">
@@ -195,13 +221,13 @@
                     <!-- <p class="skills-desc">PPC marketing | Social Media | SEO</p> -->
                     <div class="dev-list">
                         <ul class="icons">
-                            <li title="HTML5">
+                            <li title="PPC digital marketing">
                                 <p>PPC</p><i class="fas fa-ad fa-2x dev-icon"></i>
                             </li>
-                            <li title="CSS3">
+                            <li title="Social media marketing">
                                 <p>Social</p><i class="far fa-thumbs-up fa-2x dev-icon"></i>
                             </li>
-                            <li title="Javascript">
+                            <li title="Search Engine Optimalization">
                                 <p>SEO</p><i class="fas fa-poll fa-2x dev-icon"></i>
                             </li>
                         </ul>
@@ -215,13 +241,21 @@
                         producing advice?</p>
                     <div class="dev-list">
                         <ul class="icons">
-                            <li title="Sollabong Spotify"><i class="fab fa-spotify fa-2x dev-icon"></i>
+                            <li title="Sollabong Spotify"><a class="music-icon"
+                                    href="https://open.spotify.com/artist/1aFDzsN9aUFjOTMlqr0GcZ?si=FKJgwJtMQI658iuVTlzjFg"
+                                    title="Spotify"><i class="fab fa-spotify fa-2x dev-icon"></i></a>
                             </li>
-                            <li title="Sollabong Soundcloud"><i class="fab fa-soundcloud fa-2x dev-icon"></i>
+                            <li title="Sollabong Soundcloud"><a class="music-icon"
+                                    href="https://soundcloud.com/sollabong/tracks" title="Soundcloud"><i
+                                        class="fab fa-soundcloud fa-2x dev-icon"></i></a>
                             </li>
-                            <li title="Sollabong iTunes"><i class="fab fa-itunes fa-2x dev-icon"></i>
+                            <li title="Sollabong iTunes"><a class="music-icon"
+                                    href="https://music.apple.com/us/artist/sollabong/327719698" title="Itunes"><i
+                                        class="fab fa-itunes fa-2x dev-icon"></i></a>
                             </li>
-                            <li title="Sollabong Amazon"><i class="fab fa-amazon fa-2x dev-icon"></i>
+                            <li title="Sollabong Amazon"><a class="music-icon"
+                                    href="https://music.amazon.com/artists/B002LQLN66/sollabong" title="Amazon"><i
+                                        class="fab fa-amazon fa-2x dev-icon"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -235,7 +269,7 @@
                 TOUCH</button>
         </div>
     </div>
-    <div class="blog">
+    <div class="blog" id="blog">
         <h2>BLOG</h2>
         <p class="works-other">
             I share my experiences with you about my journey as an online marketing specialist, who learns front-end
@@ -243,7 +277,8 @@
         </p>
         <div class="blog-container">
             <div class="first-blog">
-                <img src="./assets/freelancer_sollabong.jpg" alt="">
+                <img src="./assets/freelancer_sollabong.jpg"
+                    alt="Hogyan kezd a freelancer életet? + Trükkök ügyfélszerzéshez">
                 <div class="blog-card-decription">
                     <div class="blogtitle">
                         Hogyan kezd a freelancer életet? + Trükkök ügyfélszerzéshez
@@ -258,7 +293,8 @@
                 </div>
             </div>
             <div class="first-blog">
-                <img src="./assets/seo_webfejlesztes_lighthouse_sollabong.jpg" alt="">
+                <img src="./assets/seo_webfejlesztes_lighthouse_sollabong.jpg"
+                    alt="SEO fejlesztőknek, mire jó a Lighthouse és hogyan használd">
                 <div class="blog-card-decription">
                     <div class="blogtitle">
                         SEO fejlesztőknek, mire jó a Lighthouse és hogyan használd
@@ -273,7 +309,8 @@
                 </div>
             </div>
             <div class="first-blog">
-                <img src="./assets/6tipp_portfolio_sollabong.jpg" alt="">
+                <img src="./assets/6tipp_portfolio_sollabong.jpg"
+                    alt="6 tipp a jól konvertáló webfejlesztői portfólió oldalhoz">
                 <div class="blog-card-decription">
                     <div class="blogtitle">
                         6 tipp a jól konvertáló webfejlesztői portfólió oldalhoz
@@ -290,24 +327,24 @@
         </div>
     </div>
     <div class="contact-container" id="contact">
-        <h2>KAPCSOLAT</h2>
+        <h2>GET IN TOUCH</h2>
         <div class="contact">
             <form id="gform" method="POST" class="gform" data-email="from_email@example.com"
                 action="https://script.google.com/macros/s/AKfycbyzte_iwgEGegmocTINPbirLCmm1D9hnLTrMlNf/exec">
 
 
-                <input id="name" class="input-field" name="name" placeholder=" Neved" />
+                <input id="name" class="input-field" name="name" placeholder=" Your name" />
 
 
                 <input id="email" class="input-field" name="email" type="email" value="" required
-                    placeholder=" emailcimed@email.com" />
+                    placeholder=" your@email.com" />
 
 
                 <textarea id="message" class="input-area" name="message" rows="10"
-                    placeholder=" Miben segíthetünk?"></textarea>
+                    placeholder=" How can I help you?"></textarea>
 
                 <button class="button-send">
-                    <i class="fa fa-paper-plane"></i>KÜLDÉS
+                    <i class="fa fa-paper-plane"></i>SEND
                 </button>
 
             </form>
@@ -315,8 +352,8 @@
             <!-- Customise the Thankyou Message People See when they submit the form: -->
             <div style="display:none;" id="thankyou_message">
                 <h2>
-                    <em>Köszönjük</em> hogy írtál!
-                    Hamarosan válaszolunk!
+                    <em>Thanks</em> for your message!
+                    I will answer soon...
                 </h2>
             </div>
         </div>
@@ -325,14 +362,14 @@
 
     <div class="footer">
         <div class="social-footer">
-            <a href="https://www.facebook.com/woodivity" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/woodivity_official/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a class="phone" href="tel:1111111111"><i class="fas fa-phone-square"></i></a>
+            <a href="https://www.facebook.com/sollabong" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/sollabong_official/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <p class="creator">This site was created by <a style="color: #ffffff;" href="https://sollabong.com"
                 target="_blank"><strong>Gábor
                     Soltész-Kéri (Sollabong)</strong></a></p>
-        <p class="creator">© 2020 Woodivity | All rights reserved GMA-Holz Kft., Budapest HU</p>
+        <p class="creator">© 2020 Sollabong | All rights reserved sollabong.com, Budapest HU</p>
     </div>
 
     <!-- Here comes the Javascript -->
