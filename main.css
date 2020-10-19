@@ -55,6 +55,19 @@ h2 {
     background-color: #ffffff;
 }
 
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    color: rgba(255, 255, 255, 0.582);
+    background-color: transparent;
+    
+}
+
 /* The Overlay (background) */
 .overlay {
     height: 100%;
@@ -492,6 +505,124 @@ h2 {
     width: 90%;
 }
 
+/* Recommendation auto slideshow */
+
+.recommend {
+    background-color: #fcc100;
+}
+
+.rec-slides {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 0px 30px 0px;
+}
+
+.rec-card-decription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+} 
+  /* Hide the cards by default */
+.mySlidesB {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prevB {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .nextB {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prevB:hover, .nextB:hover {
+    background-color: #ffda61;
+  }
+
+
+
+.profilepic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 7px solid  #ffda61;
+}
+
+.rec-name {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 20px 0px 10px 0px;
+}
+
+.rec-title {
+    color:  #ffe591;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+  
+.rec {
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 1.4rem;
+}
+
+.dotB {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffda61;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin:15px 0px 30px 0px;
+  }
+  
+  .active, .dotB:hover {
+    background-color: #ffffff;
+  }
+ 
+
 /* Blog */
 
 .blog {
@@ -561,6 +692,8 @@ h2 {
     background-color: transparent;
 
 }
+
+/* Contact */
 
 .contact-container{
     background-color: #ffda61;
@@ -651,6 +784,8 @@ h2 {
     text-align: center;
     margin: auto;
 }
+
+
 
 
 @media screen and (max-width: 44em) {

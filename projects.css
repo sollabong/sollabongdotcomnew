@@ -1,0 +1,178 @@
+/* Projects site */
+
+.projects {
+    padding-top: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proj-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.proj-left {
+    width: 100%;
+    filter: grayscale(60%);
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.proj-left:hover {
+    filter: grayscale(0);
+    transition: ease-in-out 0.4s;
+}
+.proj-left > img{
+    width: 100%;
+}
+
+.proj-left > img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    transition: ease-in-out 0.4s;
+}
+
+.proj-desc {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    color: #ffffff;
+}
+
+.proj-title {
+    color: #ffda61;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+
+.proj-skills {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffda61;
+    font-size: 1.2rem;
+}
+
+.proj-description {
+    font-family: 'Montserrat', sans-serif;
+    height: 30%;
+}
+
+.proj-github{
+    border: 1px solid rgb(117, 117, 117);
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(117, 117, 117);
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.proj-btn{
+    border: 1px solid #ffc400;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffc400;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/* 2 in a row projects */
+.projectsB {
+    padding-top: 30px;
+    background-color: #ffda61;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projB-content {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #ffffff57;
+    justify-content: start;    
+}
+
+.projB-left {
+    width: 100%;
+    filter: grayscale(60%);
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.projB-left:hover {
+    filter: grayscale(0);
+    transition: ease-in-out 0.4s;
+}
+.projB-left > img{
+    width: 100%;
+}
+
+.projB-left > img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    transition: ease-in-out 0.4s;
+}
+
+.projB-desc {
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    color: #000000;
+}
+
+.projB-title {
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+
+.projB-skills {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.projB-description {
+    font-family: 'Montserrat', sans-serif;
+    height: 30%;
+}
+
+.projB-github{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.projB-btn{
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
