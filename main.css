@@ -685,7 +685,7 @@ h2 {
     border: 1px solid #ffc400;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
-    color: #ffc400;
+    color: #ffc400 !important;
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     margin: 15px 0px 15px 0px;

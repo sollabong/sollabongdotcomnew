@@ -56,8 +56,8 @@
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            <a href="./index.html">Home</a>
-            <a href="./projects.html">Portfolio</a>
+            <a href="./index.html" title="Sollabong home page">Home</a>
+            <a href="./projects.html" title="Sollabong portfolio page">Portfolio</a>
         </div>
 
     </div>
@@ -70,9 +70,12 @@
                 Budapest, Hungary</p>
             <div class="social">
                 <!-- <span class="lang">EN | HU </span> -->
-                <a href="https://www.facebook.com/sollabong" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a class="phone" href="tel:0036702104216"><i class="fas fa-phone-square"></i></a>
+                <a href="https://www.facebook.com/sollabong" target="_blank"
+                    title="Sollabong Facebook social media page"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"
+                    title="Sollabong Linkedin social media page"><i class="fab fa-linkedin"></i></a>
+                <a class="phone" href="tel:0036702104216" title="Sollabong phone contact"><i
+                        class="fas fa-phone-square"></i></a>
             </div>
         </div>
         <div class="navigation">
@@ -272,14 +275,14 @@
             <form id="gform" method="POST" class="gform" data-email="from_email@example.com"
                 action="https://script.google.com/macros/s/AKfycbyulaFzvLiQk-CkmqYBT1FpBVf6p74mx2vVmXrGUg/exec">
 
-
+                <label class="label" for="name" name="name">Name</label>
                 <input id="name" class="input-field" name="name" placeholder=" Your name" />
 
-
+                <label class="label" for="email">E-mail</label>
                 <input id="email" class="input-field" name="email" type="email" value="" required
                     placeholder=" your@email.com" />
 
-
+                <label class="label" for="message">Message</label>
                 <textarea id="message" class="input-area" name="message" rows="10"
                     placeholder=" How can I help you?"></textarea>
 
