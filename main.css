@@ -186,6 +186,7 @@ h2 {
 
 .nav-logo {
     margin: auto 30px auto 30px;
+    height: 40px;
 }
 
 .left{
@@ -764,7 +765,6 @@ h2 {
     align-items: center;
     color:#000000;
     background-color: #ffc400;
-    font-size: 10px;
     text-align: center;
     height: auto;
     justify-content: center;
