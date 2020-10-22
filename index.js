@@ -1,6 +1,6 @@
 /* Open when someone clicks on the hamburger */
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.width = "250px";
 }
   
 /* Close when someone clicks on the "x" symbol */
