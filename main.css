@@ -75,9 +75,9 @@ h2 {
     width: 0;
     position: fixed; 
     z-index: 2; 
-    left: 0;
+    right: 0;
     top: 0;
-    background: #ffda61f3;
+    background: /*#ffda61e8*/ #ffffffe8;
 	font-family: 'Oswald', sans-serif;
     overflow-x: hidden; 
     transition: 0.5s; 
@@ -86,42 +86,47 @@ h2 {
   /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%; 
+    top: 10%; 
     width: 100%; 
-    text-align: center; 
+    text-align: left; 
     margin-top: 30px; 
+    padding-left: 15px;
 }
-  
+
+.overlay-content i {
+    width: 60px;
+}
+
   /* The navigation links inside the overlay */
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2rem;
     color: #000000;
     display: block; 
     transition: 0.3s; 
 }
   
   /* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-    color: #ffffff;
+.overlay a:hover, .overlay a:focus, .overlay a:active {
+    color: #fcc100;
 }
   
   /* Position the close button (top right corner) */
 .overlay .closebtn {
     position: absolute;
     top: 20px;
-    right: 45px;
+    right: 20px;
     font-size: 60px;
 }
   
   /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
+    .overlay a {font-size: 1.6rem}
     .overlay .closebtn {
       font-size: 40px;
       top: 15px;
-      right: 35px;
+      right: 15px;
     }
 }
 
