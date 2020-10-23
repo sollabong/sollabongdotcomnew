@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="portfolio site" />
+    <meta property="og:title" content="SEO for developers, what Lighthouse is good for and how to use it">
+    <meta property="og:description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/sollabong/sollabongdotcom/master/assets/sollabong-frontenddev-onlinemarketing-musicproduction.jpg">
+    <meta property="og:url" content="http://sollabong.com">
+    <meta property="twitter:type" content="portfolio site" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="SEO for developers, what Lighthouse is good for and how to use it">
+    <meta property="twitter:description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/sollabong/sollabongdotcom/master/assets/sollabong-frontenddev-onlinemarketing-musicproduction.jpg">
+    <meta property="twitter:url" content="http://sollabong.com">
+    <meta name="twitter:creator" content="@sollabong" />
+    <meta name="title" content="SEO for developers, what Lighthouse is good for and how to use it">
+    <meta name="description"
+        content="Check out my portfolio site. If you need a responsive website, commercial music or an online marketing specialist, contact me">
+    <meta name="keywords"
+        content="sollabong, music, music production, dubstep, web development, webdesign, frontend, front-end, developer, online marketing, freelancer, freelance">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="language" content="English">
+
+    <title>Sollabong blog - SEO for developers, what Lighthouse is good for and how to use it</title>
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8a2de3897f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+</head>
+
+<body>
+    <!-- Scroll up button -->
+    <a id="top" href="#" title="Scroll to top"></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up fa-2x"></i></button>
+
+    <!-- NAVIGATION -->
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="../index.html" title="Sollabong home page">Home</a>
+            <a href="../projects.html" title="Sollabong portfolio page">Portfolio</a>
+        </div>
+
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="top-top">
+            <p class="address">
+                <b>GÁBOR SOLTÉSZ-KÉRI &nbsp;&nbsp;</b>
+                <i class="fas fa-map-marker-alt"></i>
+                Budapest, Hungary</p>
+            <div class="social">
+                <!-- <span class="lang">EN | HU </span> -->
+                <a href="https://www.facebook.com/sollabong" target="_blank"
+                    title="Sollabong Facebook social media page"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"
+                    title="Sollabong Linkedin social media page"><i class="fab fa-linkedin"></i></a>
+                <a class="phone" href="tel:0036702104216" title="Sollabong phone contact"><i
+                        class="fas fa-phone-square"></i></a>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="left">
+                <a href="../index.html"><img class="nav-logo" src="../assets/sollabong_nav_logo.png"
+                        alt="sollabong logo"></a>
+            </div>
+            <!-- Element to openthe overlay navigation menu -->
+            <i onclick="openNav()" class="fa fa-bars fa-2x hamb"></i>
+        </div>
+    </div>
+
+    <div class="blog-page">
+        <div class="blog-content">
+            <div class="blog-hero">
+                <img src="../assets/blog-header2.jpg"
+                    alt="How to start the freelancer life? Tricks for customer acquisition">
+            </div>
+            <div class="blog-author">
+                <img src="../assets/profil.jpg" alt="Gábor Soltész-Kéri profile picture" class="blog-prof">
+                <div class="blog-name">Gábor Soltész-Kéri</div>
+                <div class="blog-role">Online marketing specialist | Front-end developer</div>
+            </div>
+            <div class="blog-title">
+                <strong>SEO for developers, what Lighthouse is good for and how to use it</strong>
+            </div>
+            <div class="blog-subhead">
+                Most developers are shaken by the cold when they hear search engine optimization. Why should I deal with
+                this? The marketing should solves this, I just give a nice, working page and then they have fun with the
+                keywords.
+            </div>
+            <div class="blog-blog">
+                <p>
+                    When you want to <strong>"do Search Engine Optimization"</strong>, one of the first steps is a
+                    technical SEO Audit.
+                    So we
+                    review the technical settings of the website that are important for <strong>SEO</strong>, and their
+                    lack is not good
+                    for our ranking in the Google results list.
+                </p>
+                <p>
+                    The <strong>Google Lighthouse</strong> tool is perfect for this in the first place, which can be
+                    accessed directly
+                    from the Chrome browser by pressing CTRL + SHFT + i on the page you want to scan.
+                </p>
+                <p>
+                    Click on Lighthouse here and run the audit!
+                </p>
+                <p>
+                    <i>I ran it here on my own page: <a href="sollabong.com" target="_blank"
+                            title="sollabong.com">sollabong.com</a></i>
+                </p>
+                <div class="video">
+                    <iframe width="100%" height="500rem" src="https://www.youtube.com/embed/26njKGlasIY" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <br>
+                <p>
+                    Lighthouse is one of Google's free, open source, and automated analytics tools that allows website
+                    developers and operators to continuously monitor page load speed and optimization.
+                </p>
+                <p>
+                    <strong>Lighthouse scans the site throughout the audit and rates each category between 0 and
+                        100:</strong>
+                </p>
+                <br>
+
+                <div class="bullets">
+                    <p>
+                        <i class="fas coloring fa-check"></i> <strong>Performance:</strong> The first report evaluates
+                        how quickly key
+                        elements of the page appear to users. The result consists of the summation of several
+                        measurement points, such as the appearance of the first elements or the time elapsed until the
+                        first possible interaction.
+                    </p>
+                    <p>
+                        <i class="fas coloring fa-check"></i> <strong>Accessibility:</strong> the score that indicates
+                        accessibility.
+                        This includes whether each element is named (e.g. alt tag of images, descriptive text for
+                        links), whether the contrasts are appropriate, whether the texts are readable. In short,
+                        crawlers and users (readers) can logically read your content.
+                    </p>
+                    <p>
+                        <i class="fas coloring fa-check"></i> <strong>Best Practices:</strong> monitors and evaluates
+                        the application of
+                        technology solutions in line with current trends and industry best practices.
+                    </p>
+                    <p>
+                        <i class="fas coloring fa-check"></i> <strong>SEO:</strong> The report checks some basic search
+                        engine optimization steps. This is not much, but it can be well used as a starting point for a
+                        developer.
+                    </p>
+                </div>
+                <br>
+                <p class="bulletpoint">
+                    <strong>Let's take a look at the points listed in SEO:</strong>
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>1. &lsaquo; title &rsaquo;</strong>
+                </p>
+                <p>
+                    The page has a title. This is important because in search engines this will also be the title of the
+                    page, this is what the search engine will look at first.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>2. &lsaquo; meta &rsaquo;</strong>
+                </p>
+                <p>
+                    You can give the page a description, keywords, and many other parameters that will also be used by
+                    the search engine, or social sites if someone shares your page.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>3. The site does not block indexing,</strong>
+                </p>
+                <p>
+                    i.e. we have given search engines permission to publish and store our website on their system.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>4. robots.txt</strong>
+                </p>
+                <p>
+                    On the one hand, you need to have such a file uploaded to you in the &lsaquo; head &rsaquo; section.
+                    On the other hand, if your robots.txt file is malformed, robots will not be able to
+                    understand how to crawl or index your website.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>5. alt attribute on images</strong>
+                </p>
+                <p>
+                    Here, a short, alternative text should be sought. If not specified, search engines may even
+                    completely ignore it, plus scanners will not see what is in the image.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>6. hreflang</strong>
+                </p>
+                <p>
+                    Hreflang links tell search engines which version of a page should be listed in the search results
+                    for that language or region.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>7. The document avoids plug-ins</strong>
+                </p>
+                <p>
+                    Search engines cannot index the content of plug-ins, and many tools restrict or do not support
+                    plug-ins.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>8. sitemap.xml</strong>
+                </p>
+                <p>
+                    It helps you crawl your page, you actually give the search engine robot a map of how the
+                    pages-subpages are logically related to each other.
+                </p>
+                <br>
+                <p class="bulletpoint">
+                    <strong>9. Structured data is valid</strong>
+                </p>
+                <p>
+                    Search engines use structured data to understand what content is on a page. For example, you can say
+                    that your page is an article, a job advertisement, or a FAQ.
+                </p>
+                <p>
+                    It’s good to know about the SHEMA system in this regard, but I’ll write about that in detail in a
+                    later post.
+                </p>
+                <br>
+                <p>
+                    <strong>If you pay attention to just these few things, believe me your customers will be very
+                        grateful, or if it’s your own portfolio page, you’ll help yourself a lot to find
+                        customers.</strong>
+                </p>
+                <p>
+                    This is just the surface for SEO, the rest is really left to the SEO professionals
+                </p>
+
+            </div>
+        </div>
+        <div class="blog-others">
+            <h2>MORE FROM MY BLOG</h2>
+            <div class="more-blog">
+                <div class="first-blog">
+                    <img src="../assets/how-to-start-freelancer-life-tips-to acquire-customers.jpg"
+                        alt="How to start the freelancer life? Tricks for customer acquisition">
+                    <div class="blog-card-decription">
+                        <div class="blogtitle">
+                            How to start the freelancer life? Tricks for customer acquisition
+                        </div>
+                        <div class="blogprev">
+                            I work as a full time online marketing specialist. I love it, but to be honest, it doesn’t
+                            give
+                            me enough. That’s why I started learning front-end development a year ago and winking at
+                            “freelancing”...
+                        </div>
+                        <a class="more-btn" href="./blog/how-to-start-freelancer-life-tips-to-acquire-customers.html"
+                            target="_blank" title="How to start the freelancer life? Tricks for customer acquisition">
+                            I am curious</a>
+                    </div>
+                </div>
+                <div class="first-blog">
+                    <img src="../assets/6-tips-for-a-well-converting-web-developer-portfolio-page.jpg"
+                        alt="6 tips for a well-converting web developer portfolio page">
+                    <div class="blog-card-decription">
+                        <div class="blogtitle">
+                            6 tips for a well-converting web developer portfolio page
+                        </div>
+                        <div class="blogprev">
+                            Are you looking for a freelancer job or a new job? You will definitely need two things:
+                            Skills
+                            and a brutal online web developmer portfolio...
+                        </div>
+                        <a class="more-btn"
+                            href="https://www.linkedin.com/pulse/6-tipp-j%25C3%25B3l-konvert%25C3%25A1l%25C3%25B3-webfejleszt%25C5%2591i-portf%25C3%25B3li%25C3%25B3-oldal-solt%25C3%25A9sz-k%25C3%25A9ri/"
+                            target="_blank" title="6 tips for a well-converting web developer portfolio page"
+                            rel="noreferrer">
+                            Ok, I want to know</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="social-footer">
+            <a href="https://www.facebook.com/sollabong" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/solteszgabor/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/sollabong_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="creator">This site was created by <a style="color: #ffffff;" href="https://sollabong.com"
+                target="_blank"><strong>Gábor
+                    Soltész-Kéri (Sollabong)</strong></a></p>
+        <p class="creator">© 2020 Sollabong | All rights reserved sollabong.com, Budapest HU</p>
+    </div>
+
+    <!-- Here comes the Javascript -->
+    <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+
+
+
+    <script src="../index.js"></script>
+</body>
+
+</html>
