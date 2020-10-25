@@ -52,6 +52,11 @@ h2 {
     width: 90%;
 }
 
+.cookies {
+    padding: 10%;
+    background-color: #ffda61;
+}
+
 .project-btn:hover, .contact-btn:hover, .button-send:hover {
     background-color: #ffffff;
 }
