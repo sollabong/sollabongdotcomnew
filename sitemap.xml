@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://sollabong.com/</loc>
+	<lastmod>2020-11-23T21:54:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sollabong.com/index.html</loc>
+	<lastmod>2020-11-23T21:54:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sollabong.com/projects.html</loc>
+	<lastmod>2020-11-23T21:54:12+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sollabong.com/blog/how-to-start-freelancer-life-tips-to-acquire-customers.html</loc>
+	<lastmod>2020-11-23T21:54:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://sollabong.com/blog/SEO-for-developers-what-Lighthouse-is-good-for-and-how-to-use-it.html</loc>
+	<lastmod>2020-11-23T21:54:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://sollabong.com/blog/6-tips-for-a-well-converting-web-developer-portfolio-page.html</loc>
+	<lastmod>2020-11-23T21:54:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
