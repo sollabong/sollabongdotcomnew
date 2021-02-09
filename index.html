@@ -419,8 +419,7 @@
     <div class="contact-container" id="contact">
         <h2>GET IN TOUCH</h2>
         <div class="contact">
-            <form id="gform" method="POST" class="gform"
-                action="https://script.google.com/macros/s/AKfycbyulaFzvLiQk-CkmqYBT1FpBVf6p74mx2vVmXrGUg/exec">
+            <form id="gform" method="POST" class="gform" action="https://formspree.io/f/maylenjd">
 
                 <label class="label" for="name" name="name">Name</label>
                 <input id="name" class="input-field" name="name" placeholder=" Your name" />
@@ -432,6 +431,9 @@
                 <label class="label" for="message">Message</label>
                 <textarea id="message" class="input-area" name="message" rows="10"
                     placeholder=" How can I help you?"></textarea>
+
+                <p><input type="checkbox" required name="privacy policy"> I have read and accept the <a
+                        href="https://sollabong.com/sollabong-adatvedelem.pdf"><u>privacy policy</u></a></p>
 
                 <button class="button-send">
                     <i class="fa fa-paper-plane"></i>SEND
@@ -467,11 +469,11 @@
         <p class="creator">© 2020 Sollabong | All rights reserved sollabong.com, Budapest HU</p>
     </div>
 
-    <!-- Here comes the Javascript -->
+    <!-- Here comes the Javascript 
     <script data-cfasync="false" type="text/javascript"
         src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
 
-
+-->
 
     <script src="./index.js"></script>
     <!--Start Cookie Script-->
